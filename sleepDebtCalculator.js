@@ -46,4 +46,4 @@ const getSleepHours =(day)=>{
   }
   
   calculateSleepDebt()
-  
+  //Variables that contain arrays can be declared with let or const. Even when declared with const, arrays are still mutable. However, a variable declared with const cannot be reassigned.
