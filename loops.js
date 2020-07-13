@@ -16,7 +16,7 @@ for ( let i = 0; i< bobsFollowers.length; i++){
 // to find the secret message with map and forEach
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
-// Create the secretMessage array below
+// Create the secretMessage array 
 const secretMessage = animals.map(letter =>
 letter[0])
 
@@ -24,5 +24,17 @@ console.log(secretMessage.join(''));
 
 const bigNumbers = [100, 200, 300, 400, 500];
 
-// Create the smallNumbers array below
+// Create the smallNumbers array 
 const smallNumbers = bigNumbers.map(number => number/100)
+ //findIndex to look up a element that is equal to "elephant" and a animal name  that start with "s"
+const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+const foundAnimal = animals.findIndex(element =>{
+  return element === "elephant"
+})
+
+const startsWithS = animals.findIndex(letter =>
+{
+  return letter[0]=== "s"
+})
+console.log(startsWithS)
