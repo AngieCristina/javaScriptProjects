@@ -1,4 +1,4 @@
-//Build a Library
+//Build a Library with classes 
 
 class Media {
   constructor(title, isCheckedOut, ratings) {
